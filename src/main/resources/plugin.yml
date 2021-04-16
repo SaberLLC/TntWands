@@ -1,0 +1,10 @@
+name: SaberTntWands
+author: Driftay
+version: 1.0
+main: pw.saber.tntwands.TntWands
+commands:
+  tntwand:
+    description: base command for tnt wands
+permissions:
+  tntwands.admin:
+    description: gives ability to give tntwands

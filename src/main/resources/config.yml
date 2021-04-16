@@ -1,0 +1,35 @@
+#    ████████╗███╗   ██╗████████╗    ██╗    ██╗ █████╗ ███╗   ██╗██████╗ ███████╗
+#    ╚══██╔══╝████╗  ██║╚══██╔══╝    ██║    ██║██╔══██╗████╗  ██║██╔══██╗██╔════╝
+#       ██║   ██╔██╗ ██║   ██║       ██║ █╗ ██║███████║██╔██╗ ██║██║  ██║███████╗
+#       ██║   ██║╚██╗██║   ██║       ██║███╗██║██╔══██║██║╚██╗██║██║  ██║╚════██║
+#       ██║   ██║ ╚████║   ██║       ╚███╔███╔╝██║  ██║██║ ╚████║██████╔╝███████║
+#       ╚═╝   ╚═╝  ╚═══╝   ╚═╝        ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
+#<-------------------------------------->NOTES<-------------------------------------->#
+#All Color Codes Can Be Used!
+#Refer to: https://wiki.ess3.net/mc/
+#<-------------------------------------->NOTES<-------------------------------------->#
+TntWand:
+  Item:
+    Type: STICK
+    Display-Name-Infinite: '&4&lTNT &c&lWands &8| &6Infinite' #Placeholders: {uses}
+    Display-Name: '&4&lTNT &c&lWands &8| &6{uses}' #Placeholders: {uses}
+    Lore:
+      - ' ' #Placeholders: {uses}
+      - '&7&oRight-Click any of the following'
+      - '&7&oto convert tnt into your factions'
+      - '&7&otnt bank'
+      - ' '
+      - '&f&l* &fCHEST'
+      - '&f&l* &fTRAPPED CHEST'
+
+Messages:
+  Player-Offline: '&c&l[!] &4{player} &cis not online!'
+  TntWand-Received: '&a&l[!] &aYou have received a TntWand with &f{uses} &auses!'
+  TntWand-Received-Infinite: '&a&l[!] &aYou have received a TntWand with &fINFINITE &auses!'
+  Command-Usage: '&c&l[!] &cTry &7/tntwand give <player> <uses>' #Uses can be -1 for Infinite!
+  Must-Be-Number: '&c&l[!] &cYour amount must be a number, or -1 for an infinite tntwand!'
+
+  Tnt-Bank-Limit-Reached: '&c&l[!] &cYour faction has reached it''s tnt bank limit!'
+  Successful-Transaction: '&a&l[!] &aYou have successfully deposited &f{amount} &atnt into your factions tnt bank!'
+  Must-Be-In-Faction: '&c&l[!] &cYou must belong to a faction to use TntWands!'
+  No-Perms: '&c&l[!] &cYou do not have permission to use TntWands in &4{faction}&c!'
